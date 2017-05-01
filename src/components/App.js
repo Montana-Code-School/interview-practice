@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowThings from './ShowThings';
+import ShowVeggies from './ShowVeggies';
 
 class App extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ShowThings extends React.Component {
+export default class ShowVeggies extends React.Component {
   render() {
     //create a map function for your name and counter here.
     return (
@@ -9,4 +9,4 @@ export default class ShowThings extends React.Component {
   }
 }
 
-ShowThings.propTypes = {things: React.PropTypes.array};
+ShowVeggies.propTypes = {things: React.PropTypes.array};
