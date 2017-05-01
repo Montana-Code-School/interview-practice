@@ -7,7 +7,7 @@ thingRouter.route('/things')
   .post(function(req, res, next){
     let thing = new Thing();
     thing.name = req.body.name;
-    thing.weight = req.body.weight;
+    thing.counter = req.body.counter;
 
     thing.save(function(err, t){
       if (err) {

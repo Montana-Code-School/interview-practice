@@ -2,13 +2,9 @@ import React from 'react';
 
 export default class ShowThings extends React.Component {
   render() {
-    let things = this.props.things.map(thing => (
-      <li key={thing._id}>{thing.name} - {thing.weight} lbs </li>
-    ));
+    //create a map function for your name and counter here.
     return (
-      <ul>
-        {things}
-      </ul>
+      <div>return your mapped items here.</div>
     );
   }
 }

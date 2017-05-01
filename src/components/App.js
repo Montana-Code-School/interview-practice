@@ -17,7 +17,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <ShowThings things={this.state.things}/>
+        render your components here.
       </div>
     );
   }

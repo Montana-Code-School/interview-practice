@@ -12,7 +12,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var ThingSchema = new _mongoose2.default.Schema({
   name: String,
-  weight: Number
+  counter: Number
 });
 
 exports.default = _mongoose2.default.model('Thing', ThingSchema);

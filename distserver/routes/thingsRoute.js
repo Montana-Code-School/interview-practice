@@ -19,7 +19,7 @@ var thingRouter = _express2.default.Router();
 thingRouter.route('/things').post(function (req, res, next) {
   var thing = new _Thing2.default();
   thing.name = req.body.name;
-  thing.weight = req.body.weight;
+  thing.counter = req.body.counter;
 
   thing.save(function (err, t) {
     if (err) {

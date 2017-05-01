@@ -1,7 +1,7 @@
 {
-  "name": "some-things",
+  "name": "take-home",
   "version": "1.0.0",
-  "description": "Basic app with mongo, react, webpack, babel",
+  "description": "Basic app to show applicant's aptitude",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:dev": "npm-run-all --parallel testonly:watch open:src lint:watch",
@@ -71,6 +71,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hajush/some-things"
+    "url": "https://github.com/rachaelsh/interview-practice"
   }
 }
