@@ -11,4 +11,4 @@ This year, your garden is doing great.  To see how you did, you'd like to track 
 * Style the information, including the button, using Bootstrap.
 * Push your solution to your personal GitHub account.
 
-* BONUS: Find a way to add new vegetable names to the database, with a starting counter of 0.
+* BONUS: Find a way to add new vegetable names to the database from the front end, with a starting counter of 0.
